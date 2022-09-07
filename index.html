@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="shortcut icon" href="https://img.icons8.com/ios/50/000000/genshin-impact.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">TicTacToe (Simple?)</h1>
+    </header>
+    <main>
+        <div class="board" id="board">
+            <!--
+                First Column 0, 2
+            _____________________________________________________________-->
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+    
+            <!--
+                Second Column 3, 5
+            _____________________________________________________________-->
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+    
+            <!--
+                Thirth Column 6, 8
+            _____________________________________________________________-->
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton">Restart</button>
+        </div>
+    </main>
+
+    <footer class="foo">
+        <p>See My <a target="_blank" href="https://github.com/chmod655">GitHub</a></p>
+    </footer>
+    <script type="module" src="./assets/js/index.js"></script>
+</body>
+</html>
